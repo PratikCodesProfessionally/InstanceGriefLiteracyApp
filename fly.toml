@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for griefliteracyapp on 2025-06-15T15:36:41Z
+# fly.toml app configuration file generated for egriefliteracyapp on 2025-06-16T10:55:20Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'griefliteracyapp'
+app = 'egriefliteracyapp'
 primary_region = 'fra'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 80
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
